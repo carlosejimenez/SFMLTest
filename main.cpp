@@ -28,7 +28,7 @@ int main(int, char const**)
     sprite.setOrigin(200,100);
     sprite.setPosition(400,300);
     sf::Music music;
-    if (!music.openFromFile("../SFMLTest/Imperial_March.ogx")) {
+    if (!music.openFromFile("../SFMLTest/beauvoir.wav")) {
         return EXIT_FAILURE;
     }
 
